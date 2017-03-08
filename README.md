@@ -47,7 +47,7 @@ sudo emerge cmake dev-vcs/git gdb libsdl2 mesa
 #### Download AimTux:
 
 ```bash
-git clone --recursive https://github.com/AimTuxOfficial/AimTux
+git clone --recursive https://github.com/appendicitis/AimTux
 ```
 
 ```bash
