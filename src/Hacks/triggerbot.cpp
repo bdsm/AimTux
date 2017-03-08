@@ -12,6 +12,7 @@ bool Settings::Triggerbot::Filters::chest = true;
 bool Settings::Triggerbot::Filters::stomach = true;
 bool Settings::Triggerbot::Filters::arms = true;
 bool Settings::Triggerbot::Filters::legs = true;
+bool Settings::Triggerbot::Filters::ankles = true;
 bool Settings::Triggerbot::Delay::enabled = false;
 int Settings::Triggerbot::Delay::value = 250;
 ButtonCode_t Settings::Triggerbot::key = ButtonCode_t::KEY_LALT;
@@ -106,6 +107,10 @@ void Triggerbot::CreateMove(CUserCmd *cmd)
 		case HitGroups::HITGROUP_LEFTLEG:
 		case HitGroups::HITGROUP_RIGHTLEG:
 			filter = Settings::Triggerbot::Filters::legs;
+			break;
+		case HitGroups::HITGROUP_LEFTANKLE:
+		case HitGroups::HITGROUP_RIGHTANKLE:
+			filter = Settings::Triggerbot::Filters::ankles;
 			break;
 		default:
 			filter = false;
