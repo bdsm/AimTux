@@ -57,6 +57,8 @@ void Triggerbot::RenderTab()
 				SetTooltip("Trigger on chest");
 				ImGui::Checkbox("Legs", &Settings::Triggerbot::Filters::legs);
 				SetTooltip("Trigger on legs");
+				ImGui::Checkbox("Ankles", &Settings::Triggerbot::Filters:legs);
+				SetTooltip("Trigger on ankles")
 			}
 			ImGui::NextColumn();
 			{
