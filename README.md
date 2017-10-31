@@ -9,6 +9,7 @@ Want to chat or play with other AimTux users? Join us on Gitter!
 ## What is AimTux?
 
 AimTux is a fully featured internal hack for *CounterStrike : Global Offensive* written in C++.
+100% working as of October 30th 2017 trust me no VAC
 
 
 ## Compiling
