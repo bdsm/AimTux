@@ -167,4 +167,4 @@ Special thanks to [@aixxe](http://www.github.com/aixxe/) ([aixxe.net](http://www
 
 This project was also originally based upon Atex's [Linux Basehook](http://unknowncheats.me/forum/counterstrike-global-offensive/181878-linux-basehook.html).
 
-Life support provided by slcoolj
+Life support provided by [slcoolj](https://github.com/slcoolj)
